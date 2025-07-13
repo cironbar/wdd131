@@ -1,0 +1,106 @@
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #1e4d93;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 span {
+      color: yellow;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #fff;
+      width: 48%;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      background-color: #1e4d93;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      border-radius: 6px 6px 0 0;
+      margin-bottom: 20px;
+    }
+    .about-section {
+      display: flex;
+      gap: 20px;
+    }
+    .about-text {
+      flex: 1;
+    }
+    .about-image img {
+      border-radius: 5px;
+      width: 150px;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid #ccc;
+    }
+    .location {
+      margin-top: 20px;
+      border-top: 1px solid #999;
+      padding-top: 10px;
+    }
+    .location h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .location-content {
+      display: flex;
+      gap: 15px;
+    }
+    .location img {
+      width: 80px;
+      height: auto;
+    }
+    .resources ul {
+      list-style: square;
+      padding-left: 50px;
+    }
+    .resources li {
+      margin-bottom: 10px;
+    }
+    .resources a {
+      text-decoration: none;
+      color: #1e4d93;
+    }
+    footer {
+      background-color: #1e4d93;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 30px;
+    }
+    footer span {
+      color: yellow;
+    }
+  </style>
